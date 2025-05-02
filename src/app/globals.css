@@ -1,26 +1,150 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.krub-extralight {
+  font-family: "Krub", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.krub-light {
+  font-family: "Krub", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.krub-regular {
+  font-family: "Krub", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.krub-medium {
+  font-family: "Krub", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.krub-extralight-italic {
+  font-family: "Krub", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.krub-light-italic {
+  font-family: "Krub", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.krub-regular-italic {
+  font-family: "Krub", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.krub-medium-italic {
+  font-family: "Krub", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+.tagesschrift-regular {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+.section1-box{
+  background-color: #E0DAB8;
+}
+.section1-name {
+  text-align: center;
+  color: blue;
+  font-size: 60px;
+  width: 100%;
+  margin: auto;
+}
+
+.section1-meta-data{
+  text-align: center;
+  color: #1877F2;
+}
+.section1-profile-picture{
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text{
+  text-align: center;
+  color: #1877F2  ;
+}
+
+.section2-box{
+  background-color: #FFEB78;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+a:link, a:visited {
+  padding: 14px 25px;
+  text-align: center;
+}
+.section2-contact-link-facebook{
+  color: white;
+  background-color: #1877F2;
+}
+.section2-contact-link-ig{
+  color: white;
+  background-image: linear-gradient(to bottom right,#405DE6,#C13584,#FCAF45);
+}
+.section2-contact-link-line{
+  color: white;
+  background-color: black;
+}
+.section3-box{
+  display: flex;
+}
+.section2-box-a{   
+  text-align: center;
+  background-color: blueviolet;
+  margin: auto;
+  width:100%;
+}
+.section2-box-b{ 
+  text-align: center;
+  background-color: #405DE6;
+  margin: auto;
+  width:100%;   
+}
+.menu-section{
+  display: flex;
+  justify-content: space-around;
+  background-color: #1877F2   ;
+}
+.menu-item{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.font-title{
+  text-align: center;
+  font-size: 25px;
 }
