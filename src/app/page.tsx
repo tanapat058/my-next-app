@@ -1,5 +1,5 @@
 'use client'
-import FlooTer from "@/components/FlooTer";
+import FlooTer from "@/components/Footer";
 import MenuBar from "@/components/MenuBar";
 import {useState} from "react";
 
