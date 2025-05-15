@@ -1,5 +1,4 @@
 "use client";
-
 import Footer from "@/components/Footer";
 import MenuBar from "@/components/MenuBar";
 import axios from "axios";
@@ -22,8 +21,10 @@ export default function UseEffectPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-blue-700">
+    <div className="flex flex-col min-h-screen">
+   
       <MenuBar page="เรียนรู้ Use_Effect" />
+      <main className="flex-grow section1-box">
 
       <div className="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {movieList.map((item) => (
@@ -37,9 +38,9 @@ export default function UseEffectPage() {
               className="w-full h-72 object-cover"
             />
             <div className="p-4">
-              <h2 className="text-xl font-semibold mb-2 text-gray-800">
+              <h1 className="text-xl font-semibold mb-2 text-gray-800">
                 {item.title || item.name}
-              </h2>
+              </h1>
               <p className="text-gray-600 text-sm line-clamp-3">
                 {item.overview || "ไม่มีคำอธิบาย"}
               </p>
@@ -47,8 +48,10 @@ export default function UseEffectPage() {
           </div>
         ))}
       </div>
+      </main>
 
       <Footer />
     </div>
+    
   );
 }

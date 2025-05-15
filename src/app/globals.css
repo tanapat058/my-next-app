@@ -67,7 +67,10 @@
 
 
 .section1-box{
-  background-color: #E0DAB8;
+  background-color: #8DD8FF;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
 }
 .section1-name {
   text-align: center;
@@ -119,18 +122,28 @@ a:link, a:visited {
 }
 .section3-box{
   display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
 }
 .section2-box-a{   
   text-align: center;
   background-color: blueviolet;
   margin: auto;
   width:100%;
+  margin-right: 20px;
+  
 }
 .section2-box-b{ 
   text-align: center;
   background-color: #405DE6;
   margin: auto;
-  width:100%;   
+  width:100%;  
+  margin-left: 20px; 
 }
 .menu-section{
   display: flex;
