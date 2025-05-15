@@ -4,7 +4,7 @@ import MenuBar from "@/components/MenuBar";
 export default function PropsPage(){
     return 
     <div>
-        <MenuBar/>
+        <MenuBa page={"Props"}/>
 
 
 

@@ -6,7 +6,7 @@ type MenubarProps ={
 export default function MenuBar(props:MenubarProps) {
   return (
     <div>
-    <div className="flex justify-around bg-blue-500 p-4 text-3xl">
+    <div className="flex justify-around bg-auto p-4 text-3xl">
       <Link className="menu-item krub-regular" href="/">
         หน้าหลัก
       </Link>
